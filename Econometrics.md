@@ -18,8 +18,18 @@ The packages in this view can be roughly structured into the following topics.
 If you think that some package is missing from the list, please file an issue in
 the GitHub repository or contact the maintainer.
 
+<!-- simple manual TOC, 1st level -->  
+- [Basic linear regression](#basiclinearregression)
+- [Microeconometrics](#microeconometrics)
+- [Instrumental variables](#IV)
+- [Panel data models](#paneldata)
+- [Further regression models](#furtherreg)
+- [Time series data and models](#timeseries)
+- [Data sets](#datasets)
+- [Miscellaneous](#misc)
+- [Links](#links)
 
-### Basic linear regression
+### Basic linear regression{#basiclinearregression}
 
 - *Estimation and standard inference:* Ordinary least squares (OLS)
   estimation for linear models is provided by `lm()` (from stats) and standard
@@ -44,7 +54,7 @@ the GitHub repository or contact the maintainer.
   provide a large collection of regression diagnostics and diagnostic tests.
 
 
-### Microeconometrics
+### Microeconometrics{#microeconometrics}
 
 - *Generalized linear models (GLMs):* Many standard microeconometric models
   belong to the family of generalized linear models and can be fitted by
@@ -138,7 +148,7 @@ the GitHub repository or contact the maintainer.
   for relative distributions is contained in package `r pkg("reldist")`.
 
 
-### Instrumental variables
+### Instrumental variables{#IV}
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
   (2SLS) is provided by `r pkg("ivreg")` (previously in `r pkg("AER")`). Other
@@ -159,7 +169,7 @@ the GitHub repository or contact the maintainer.
   regressor using various latent instrumental variable approaches.
 
 
-### Panel data models
+### Panel data models{#paneldata}
 
 - *Panel standard errors:* A simple approach for panel data is to fit the
   pooling (or independence) model (e.g., via `lm()` or `glm()`) and only
@@ -194,7 +204,7 @@ the GitHub repository or contact the maintainer.
   preprocessing for panel data econometrics is provided by `r pkg("collapse")`.
 
 
-### Further regression models
+### Further regression models{#furtherreg}
 
 - *Nonlinear least squares modeling:* `nls()` in package stats.
 - *Quantile regression:* `r pkg("quantreg")` (including linear, nonlinear,
@@ -231,7 +241,7 @@ the GitHub repository or contact the maintainer.
   (generalized) linear regression models.
 
 
-### Time series data and models
+### Time series data and models{#timeseries}
 
 - The `r view("TimeSeries")` task view provides much more detailed information
   about both basic time series infrastructure and time series models. Here,
@@ -289,7 +299,7 @@ the GitHub repository or contact the maintainer.
   - `r pkg("apt")` - Asymmetric price transmission models.
 
 
-### Data sets
+### Data sets{#datasets}
 
 - *Textbooks and journals:* Packages `r pkg("AER")`, `r pkg("Ecdat")`, and
 `r pkg("wooldridge")` contain a comprehensive collections of data sets from
@@ -320,7 +330,7 @@ the GitHub repository or contact the maintainer.
   programmatic access to the World Bank API.
 
 
-### Miscellaneous
+### Miscellaneous{#misc}
 
 - *Model tables:* A flexible implementation of side-by-side summary tables for
   a wide range of statistical models along with corresponding visualizations
@@ -366,7 +376,7 @@ the GitHub repository or contact the maintainer.
   with correlated outcome sequences.
 
 
-### Links
+### Links{#links}
 - Journal of Statistical Software: [Special Volume on "Econometrics in R" (2008)](http://www.jstatsoft.org/v27/)
 - Book: [Applied Econometrics with R (Kleiber and Zeileis)](https://eeecon.uibk.ac.at/~zeileis/teaching/AER/)
 - Book: [Using R for Introductory Econometrics (Heiss)](http://www.urfie.net/)
